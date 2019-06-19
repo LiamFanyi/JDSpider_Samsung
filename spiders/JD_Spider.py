@@ -65,3 +65,4 @@ class JdSpider(CrawlSpider):
             nextLink = nextLink[0]
             print(nextLink)
             yield Request(nextLink,callback=self.parse)
+    #push test
